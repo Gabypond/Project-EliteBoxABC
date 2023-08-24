@@ -34,12 +34,39 @@
     display: flex;
     flex-wrap: nowrap;
     margin: 0 auto;
-    width: 400px;
-    height: 400px;
+    max-width: 1404px;
+    max-height: 270px;
+    position: relative;
     overflow: hidden;
 }
 
 .slider-header img {
-    width: 400px;
-    height: 400px;
+    width: 1404px;
+    height: 270px;
+}
+
+.input-slider-header {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 100%;
+    margin-top: -22px;
+    margin-left: 45%;
+}
+
+.return,
+.next {
+    cursor: pointer;
+    top: 50%;
+    margin-top: -22px;
+    font-size: 25px;
+    color: red;
+    padding: 16px;
+    position: absolute;
+}
+
+.return {}
+
+.next {
+    margin-left: 96%;
 }
