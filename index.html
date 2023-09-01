@@ -5,73 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="/buttonFirstBanner.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+    </script>
+
     <title>Elite BOX</title>
 </head>
 
 <body>
-    <div class="header" id="header_id">
-        <div class="logo_top">
-            <img src="/images/ELITE BOX (3).png" alt="">
+    <div class="header " id="header_id ">
+        <div class="logo_top ">
+            <img src="/images/ELITE BOX (3).png " alt=" ">
         </div>
 
-        <div class="topics_header">
+        <div class="topics_header ">
             <span>
-                <a href="https:www.google.com" >Quem somos </a>
+                <a href="https:www.google.com " >Quem somos </a>
             </span>
             <span>
-                <a href="https:www.google.com">Serviços</a>
+                <a href="https:www.google.com ">Serviços</a>
             </span>
             <span>
-                <a href="https:www.google.com">Box</a>
+                <a href="https:www.google.com ">Box</a>
             </span>
             <span>
-                <a href="https:www.google.com">Vidros em gerais</a>
+                <a href="https:www.google.com ">Vidros em gerais</a>
             </span>
             <span>
-                <a href="https:www.google.com">Espelhos</a>
+                <a href="https:www.google.com ">Espelhos</a>
             </span>
         </div>
     </div>
-    <hr class="separation-line-header">
+    <hr class="separation-line-header ">
 
-    <div class="slider-header">
+    <div class="slider-header ">
+        <div class="banner-slider " id="testando" data-slick='{"slideToShow: 1, "slidesToScroll": 5} '>
+            <div class="slide"> <img src="/images/1.jpg" alt="imageOne"> </div>
+            <div class="slide"> <img src="/images/2.jpg" alt="imageTwo"> </div>
+            <div class="slide"> <img src="/images/3.jpg" alt="imageThree"> </div>
+            <div class="slide"> <img src="/images/4.jpg" alt="imageFour"> </div>
+            <div class="slide"> <img src="/images/5.jpg" alt="imageFive"> </div>
+        </div>
 
-        <div class="slideOne"> <img src="/images/Exbanners.jpeg" alt="imageOne"> </div>
-        <div class="slide"> <img src="/images/pexels-andras-stefuca-18004075.jpg" alt="imageTwo"> </div>
-        <div class="slide"> <img src="/images/Exbanners.jpeg" alt="imageThree"> </div>
-        <div class="slide"> <img src="/images/pexels-andras-stefuca-18004075.jpg" alt="imageFour"> </div>
-        <div class="slide"> <img src="/images/Exbanners.jpeg" alt="imageFive"> </div>
-
-        <a class="return" onclick="moveSlides(-1)">&#10094</a>
+    </div>
+    <!---  
+            <a class="slick-prev" onclick="moveSlides()"></a>
+            <a class="slick-next" onclick="moveSlides()"></a>
+            
+            <div class="input-slider-header">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">        <a class="return" onclick="moveSlides(-1)">&#10094</a>
         <a class="next" onclick="moveSlides(1)">&#10095</a>
 
-        <div class="input-slider-header">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <input type="radio" name="radio-btn" id="radio5">
-        </div>
+            </div>
+            
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+    
+                <ul class="auto-navigation">
+                    <li class="slide" id="slideOne"></li>
+                    <li class="slide" id="slide2"></li>
+                    <li class="slide" id="slide3"></li>
+                    <li class="slide" id="slide4"></li>
+                    <li class="slide" id="slide5"></li>
+                </ul>
+    
+            </div>
+            
+          </div>
 
-        <div class="auto-navigation">
-            <div class="auto-slide1"></div>
-            <div class="auto-slide2"></div>
-            <div class="auto-slide3"></div>
-            <div class="auto-slide4"></div>
-            <div class="auto-slide5"></div>
-        </div>
-
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-            <label for="radio5" class="manual-btn"></label>
-
-        </div>
-    </div>
-
-    <!---     <div class="who_we_are_summary" id="who_we_are_summary_id">
+       <div class="who_we_are_summary" id="who_we_are_summary_id">
         <span class="writing_image_summary">
                QUEM SOMOS
             <span class="images_who_summary">
@@ -111,7 +125,30 @@
         </span>
         <hr size="2" width="50%" align="right" color=" #FFDE79;">
 
-    </div>
+    </div> 
+        <div <div>
+            <h3>1</h3>
+        </div>
+        <div>
+            <h3>2</h3>
+        </div>
+        <div>
+            <h3>3</h3>
+        </div>
+        <div>
+            <h3>4</h3>
+        </div>
+        <div>
+            <h3>5</h3>
+        </div>
+        <div>
+            <h3>6</h3>
+        </div>
+    </div>---->
 </body>
+<script type="text/ja"></script>
+<script type="text/javascript " src="/slick/slick.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+<script type="text/javascript " src="main.js"></script>
 
 </html>

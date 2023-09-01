@@ -22,6 +22,7 @@
 
 .topics_header a:hover {
     color: #004add;
+    transition: 0.3s;
 }
 
 .separation-line-header {
@@ -30,43 +31,14 @@
     width: 100%
 }
 
-.slider-header {
+.banner-slider {
     display: flex;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    max-width: 1404px;
-    max-height: 270px;
-    position: relative;
-    overflow: hidden;
-}
-
-.slider-header img {
-    width: 1404px;
+    margin: 30px 30px;
+    width: 1380px;
     height: 270px;
+    position: relative;
 }
 
-.input-slider-header {
-    display: flex;
-    align-items: flex-end;
-    position: absolute;
-    top: 100%;
-    margin-top: -22px;
-    margin-left: 45%;
-}
-
-.return,
-.next {
-    cursor: pointer;
-    top: 50%;
-    margin-top: -22px;
-    font-size: 25px;
-    color: red;
-    padding: 16px;
-    position: absolute;
-}
-
-.return {}
-
-.next {
-    margin-left: 96%;
+.banner-slider .slide img {
+    padding: 5px;
 }
