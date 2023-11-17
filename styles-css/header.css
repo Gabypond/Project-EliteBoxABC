@@ -1,0 +1,46 @@
+.header {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header img {
+    width: 20%;
+}
+
+.topics_header {
+    display: flex;
+}
+
+.topics_header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.topics_header a:hover {
+    color: #004add;
+    transition: 0.3s;
+}
+
+.separation-line-header {
+    display: flex;
+    border-color: #004add2c;
+    width: 100%
+}
+
+.banner-slider {
+    display: flex;
+    margin: 30px 30px;
+    width: 1380px;
+    height: 270px;
+    position: relative;
+}
+
+.banner-slider .slide img {
+    padding: 5px;
+}

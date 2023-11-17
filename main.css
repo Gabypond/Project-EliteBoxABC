@@ -1,3 +1,7 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,6 +19,7 @@
 }
 
 .topics_header a {
+    font-weight: bold;
     margin-left: 20px;
     text-decoration: none;
     color: #000000;
@@ -31,14 +36,251 @@
     width: 100%
 }
 
+
+/*styling images first banner*/
+
+.slick-dots .li .button {
+    color: #FFDE79;
+}
+
 .banner-slider {
     display: flex;
     margin: 30px 30px;
-    width: 1380px;
     height: 270px;
     position: relative;
 }
 
+.banner-slider img {
+    width: 100%;
+}
+
 .banner-slider .slide img {
     padding: 5px;
+}
+
+
+/*styling our services*/
+
+.title-our-services {
+    display: flex;
+    margin: 2% 5% 0%;
+    font-size: 40px;
+    color: #004add;
+    font-weight: bold;
+}
+
+.first-line-card-our-services {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.second-line-card-our-services {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 2%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover .description-complete {
+    bottom: 0;
+    transition-duration: 500ms;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 350px;
+    height: 550px;
+}
+
+.title-card {
+    font-weight: bold;
+    margin: 2% 0;
+    font-size: 30px
+}
+
+.description-complete {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: -100%;
+    width: 350px;
+    width: 93%;
+    padding: 5% 5% 50% 5%;
+    background-color: #ffffffd0;
+}
+
+.id-button-our-services {
+    width: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    margin: 5% 0;
+    background-color: #004add62;
+    border: none;
+}
+
+.id-button-our-services a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*button make your budget*/
+
+.button-budget {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    margin-left: 25%;
+    background-color: #0458ff50;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 4%;
+}
+
+.button-budget:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 300ms;
+}
+
+.button-budget a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*glasses in general*/
+
+.titles-glasses-general {
+    display: flex;
+    margin: 5% 2% 2% 70%;
+    font-size: 35px;
+    color: #004add;
+    font-weight: bold;
+}
+
+.description-glasses {
+    display: flex;
+    align-items: center;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    margin-top: 3%;
+    margin: 3% 5% 0% 5%;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+
+/*styling who we are*/
+
+.who-we-are-summary {
+    display: flex;
+    margin-top: 5%;
+}
+
+.writing-image-summary {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.writing-image-summary h1 {
+    display: flex;
+    margin-left: -58%;
+}
+
+.writing-who-summary {
+    display: flex;
+    align-items: center;
+    top: 50%;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.separation-line-who-we-are {
+    display: flex;
+    border-color: #004add2c;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+/*line separation glasses and baseboard*/
+
+.skewed {
+    margin-top: 5%;
+    background-color: #FFDE79;
+    transform: skew(8deg, -8deg);
+}
+
+.skewed hr {
+    border: none;
+}
+
+
+/*Social medias*/
+
+.social-medias ::content {
+    transform: skew(8deg, -8deg);
+    background-color: #004add;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: end;
+    margin: 1.4%;
+}
+
+.social-medias a img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+}
+
+
+/*Footer*/
+
+.baseboard {
+    display: flex;
+    align-items: center;
+    background-color: #FFDE79;
+    padding: 2%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.name-company {
+    font-size: 25px;
+    flex: none;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.cnpj {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.footer-index {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-index a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-index li {
+    list-style: none;
+    margin-right: 26px;
 }
